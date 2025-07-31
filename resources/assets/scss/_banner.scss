@@ -1,0 +1,27 @@
+@keyframes pulse-smooth {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.9;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 1;
+  }
+}
+
+@keyframes move-smooth {
+  0%, 100% {
+    transform: translateY(0) translateX(0);
+  }
+  50% {
+    transform: translateY(-4px) translateX(2px);
+  }
+}
+
+.animate-pulse-smooth {
+  animation: pulse-smooth 4s ease-in-out infinite;
+}
+
+.animate-move-smooth {
+  animation: move-smooth 6s ease-in-out infinite;
+}

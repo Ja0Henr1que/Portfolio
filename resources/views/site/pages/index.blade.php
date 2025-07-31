@@ -8,9 +8,7 @@
 
 
 @section('content')
-
-     <h1 class="text-3xl font-bold" >
-            Silence is golden...
-        </h1>
+  <x-banner />
+  <x-about />
 
 @endsection
